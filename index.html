@@ -3,7 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hackathon App</title>
+    <title>Cosmic Watch</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              space: '#0B0D17',
+              accent: '#3B82F6',
+            },
+            animation: {
+              'spin-slow': 'spin 20s linear infinite',
+            }
+          }
+        }
+      }
+    </script>
+    
+    <style>
+      /* Custom Scrollbar for Sci-Fi look */
+      ::-webkit-scrollbar { width: 8px; }
+      ::-webkit-scrollbar-track { background: #0B0D17; }
+      ::-webkit-scrollbar-thumb { background: #1e3a8a; border-radius: 4px; }
+      ::-webkit-scrollbar-thumb:hover { background: #3b82f6; }
+    </style>
   </head>
   <body>
     <div id="root"></div>
