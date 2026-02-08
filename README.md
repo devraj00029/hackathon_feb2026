@@ -62,3 +62,6 @@ The platform should allow users to:
 - Deployment: versel
 
 ---
+
+# AI usage disclaimer
+- Gemini used for code generation
